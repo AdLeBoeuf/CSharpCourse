@@ -1,0 +1,29 @@
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.exe
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.deps.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.runtimeconfig.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.AssemblyInfoInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.AssemblyInfo.cs
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.csproj.CoreCompileInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.sourcelink.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\refint\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.genruntimeconfig.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\ref\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.exe
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.deps.json
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.runtimeconfig.json
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\bin\Debug\net8.0\Logiciel de conversion.pdb
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.AssemblyInfoInputs.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.AssemblyInfo.cs
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.csproj.CoreCompileInputs.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\refint\Logiciel de conversion.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.pdb
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\Logiciel de conversion.genruntimeconfig.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Logiciel de conversion\Logiciel de conversion\obj\Debug\net8.0\ref\Logiciel de conversion.dll

@@ -1,0 +1,53 @@
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.csproj.AssemblyReference.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.AssemblyInfoInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.AssemblyInfo.cs
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.csproj.CoreCompileInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.sourcelink.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\ImageResizer.exe
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\ImageResizer.deps.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\ImageResizer.runtimeconfig.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\bin\Release\net8.0\SixLabors.ImageSharp.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageRes.3C3BC163.Up2Date
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\refint\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ImageResizer.genruntimeconfig.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\ImageResizer\obj\Release\net8.0\ref\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.exe
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.deps.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.runtimeconfig.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\bin\Release\net8.0\SixLabors.ImageSharp.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.csproj.AssemblyReference.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.AssemblyInfoInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.AssemblyInfo.cs
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.csproj.CoreCompileInputs.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.sourcelink.json
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageRes.3C3BC163.Up2Date
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\refint\ImageResizer.dll
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.genruntimeconfig.cache
+C:\Users\acourtessole\Desktop\Visual Studio\C# COURTESSOLE\Optimisation des images\Optimisations des images\obj\Release\net8.0\ref\ImageResizer.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.exe
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.deps.json
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.runtimeconfig.json
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\bin\Release\net8.0\SixLabors.ImageSharp.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.csproj.AssemblyReference.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.AssemblyInfoInputs.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.AssemblyInfo.cs
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.csproj.CoreCompileInputs.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageRes.3C3BC163.Up2Date
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\refint\ImageResizer.dll
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.pdb
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ImageResizer.genruntimeconfig.cache
+C:\Users\acourtessole\Desktop\CSharpCourse\Optimisation des images\Optimisations des images\obj\Release\net8.0\ref\ImageResizer.dll

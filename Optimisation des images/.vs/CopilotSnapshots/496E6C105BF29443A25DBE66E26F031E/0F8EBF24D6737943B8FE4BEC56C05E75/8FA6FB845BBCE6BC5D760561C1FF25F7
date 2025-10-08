@@ -1,0 +1,34 @@
+﻿# Optimisation-des-images
+Repository for a course project
+
+## Utilisation
+- Placez vos images d'entrée dans le dossier `images/` à la racine du dépôt.
+- Générez le projet: `dotnet build -c Release ImageResizer/ImageResizer.csproj`
+- Exécutez en mode séquentiel + parallèle (les deux) et écriture des résultats dans `README.md`:
+  - `dotnet run -c Release --project ImageResizer/ImageResizer.csproj`
+- Arguments optionnels:
+  - `arg0` chemin d'entrée (par défaut `./images`)
+  - `arg1` chemin de sortie (par défaut `./output`)
+  - `arg2` mode: `seq`, `par` ou `both` (par défaut `both`)
+
+Sorties:
+- Les images redimensionnées sont écrites directement dans `output/seq` et `output/par` sans sous-dossiers.
+- Chaque fichier de sortie est suffixé par la résolution, ex: `photo_1080p.jpg`, `photo_720p.jpg`, `photo_480p.jpg`.
+
+Le programme mesure les temps d'exécution des deux versions:
+- Version sans optimisation: boucle séquentielle qui traite les images une par une.
+- Version optimisée: `Parallel.ForEachAsync` (et tâches) pour paralléliser le redimensionnement.
+
+Les résultats de temps sont ajoutés automatiquement en bas de ce fichier dans une section "Benchmarks" après chaque exécution.
+
+### Benchmarks
+Voici où trouver les résultats des tests de performance effectués par le programme.
+
+```txt
+COPY PASTE DES RESULTATS DE TEMPS ICI
+
+
+## Benchmarks
+- Sequential: 5256 ms for 6 images
+- Parallel: 805 ms for 6 images
+(Date: 2025-10-08 15:40:10)

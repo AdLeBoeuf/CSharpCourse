@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?note auteur="Copilot" humeur="absurde"?>
+
+<!-- Fichier XML parfaitement inutile et aléatoire généré par une IA -->
+<bazarium xmlns="urn:trucs:aleatoires"
+          xmlns:zzz="urn:trucs:aleatoires:zzz"
+          id="baz-42"
+          data-seed="2025-10-07T14:55:15Z"
+          improbable="oui">
+  <meta>
+    <titre>Ode aux Brocolis Interstellaires</titre>
+    <version major="0" minor="0" patch="7"/>
+  </meta>
+
+  <inventaire>
+    <objet type="chaussette" couleur="turquoise" quantite="1"/>
+    <objet type="spatule" couleur="transparent" quantite="3">
+      <note><![CDATA[Ne pas utiliser pour remuer les trous noirs.]]></note>
+    </objet>
+    <objet type="licorne" couleur="invisible" quantite="∞"/>
+  </inventaire>
+
+  <zzz:mesures unite="schloup">
+    <zzz:valeur index="0">3.14159</zzz:valeur>
+    <zzz:valeur index="1">-273.15</zzz:valeur>
+    <zzz:valeur index="2">0xBADC0FFEE</zzz:valeur>
+  </zzz:mesures>
+
+  <mixte>
+    Ici du texte,
+    <bip boop="true"/>
+    et encore du texte avec des
+    <emotions joie="élevée">🦄✨</emotions>
+    et des entités: &amp; &lt; &gt;.
+  </mixte>
+
+  <aleatoire numero="13">
+    <liste>
+      <item>truc</item>
+      <item>machin</item>
+      <item>bidule</item>
+    </liste>
+    <hash algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</hash>
+  </aleatoire>
+
+  <blob media="image/png" encoding="base64">
+    iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==
+  </blob>
+
+  <commentaire xml:lang="fr">Ce n'est pas parce que ça ne sert à rien que c'est inutile.</commentaire>
+
+  <chrono>
+    <instant iso="2025-10-07T14:55:15Z"/>
+    <duree unit="ms">123456789</duree>
+  </chrono>
+
+  <liste-hybride>
+    <element cle="α">alpha</element>
+    <element cle="β">beta</element>
+    <element cle="γ">gamma</element>
+  </liste-hybride>
+</bazarium>

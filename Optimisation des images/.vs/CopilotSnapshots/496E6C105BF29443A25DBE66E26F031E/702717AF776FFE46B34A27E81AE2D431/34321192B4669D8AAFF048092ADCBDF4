@@ -1,0 +1,187 @@
+﻿using System.Diagnostics;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Formats;
+using SixLabors.ImageSharp.Formats.Jpeg;
+using SixLabors.ImageSharp.Formats.Png;
+using SixLabors.ImageSharp.Processing;
+
+class Program
+{
+    static readonly (int width, int height, string name)[] Targets = new[]
+    {
+        (1920, 1080, "1080p"),
+        (1280, 720, "720p"),
+        (854, 480, "480p")
+    };
+
+    static async Task Main(string[] args)
+    {
+        string inputDir = args.Length > 0 ? args[0] : Path.Combine(Directory.GetCurrentDirectory(), "images");
+        string outputDir = args.Length > 1 ? args[1] : Path.Combine(Directory.GetCurrentDirectory(), "output");
+        string mode = args.Length > 2 ? args[2] : "both"; // seq | par | both
+
+        Directory.CreateDirectory(outputDir);
+
+        Console.WriteLine($"Input: {inputDir}");
+        Console.WriteLine($"Output: {outputDir}");
+        Console.WriteLine($"Mode: {mode}");
+
+        var files = Directory.Exists(inputDir)
+            ? Directory.EnumerateFiles(inputDir, "*.*", SearchOption.AllDirectories)
+                .Where(f => HasImageExtension(f)).ToList()
+            : new List<string>();
+
+        if (files.Count == 0)
+        {
+            Console.WriteLine("No images found. Put images in the 'images' folder or pass a path as arg0.");
+            return;
+        }
+
+        var report = new List<string>();
+
+        if (mode is "seq" or "both")
+        {
+            CleanOutput(outputDir, "seq");
+            var sw = Stopwatch.StartNew();
+            RunSequential(files, outputDir);
+            sw.Stop();
+            var line = $"Sequential: {sw.ElapsedMilliseconds} ms for {files.Count} images";
+            Console.WriteLine(line);
+            report.Add(line);
+        }
+
+        if (mode is "par" or "both")
+        {
+            CleanOutput(outputDir, "par");
+            var sw = Stopwatch.StartNew();
+            await RunParallelAsync(files, outputDir);
+            sw.Stop();
+            var line = $"Parallel: {sw.ElapsedMilliseconds} ms for {files.Count} images";
+            Console.WriteLine(line);
+            report.Add(line);
+        }
+
+        // Append report to README.md in repo root if exists
+        AppendReportToReadme(report);
+    }
+
+    static void RunSequential(List<string> files, string outputDir)
+    {
+        foreach (var file in files)
+        {
+            ProcessOneImage(file, outputDir, subfolder: "seq");
+        }
+    }
+
+    static async Task RunParallelAsync(List<string> files, string outputDir)
+    {
+        var opts = new ParallelOptions
+        {
+            MaxDegreeOfParallelism = Environment.ProcessorCount
+        };
+
+        await Parallel.ForEachAsync(files, opts, async (file, ct) =>
+        {
+            // Use Task.Run to offload heavy CPU-bound work safely
+            await Task.Run(() => ProcessOneImage(file, outputDir, subfolder: "par"), ct);
+        });
+    }
+
+    static void ProcessOneImage(string file, string outputDir, string subfolder)
+    {
+        string ext = Path.GetExtension(file).ToLowerInvariant();
+        using var image = Image.Load(file);
+        foreach (var (w, h, name) in Targets)
+        {
+            using var cloned = image.Clone(ctx => ctx.Resize(new ResizeOptions
+            {
+                Mode = ResizeMode.Max,
+                Size = new Size(w, h)
+            }));
+
+            var outDir = Path.Combine(outputDir, subfolder);
+            Directory.CreateDirectory(outDir);
+            var baseName = Path.GetFileNameWithoutExtension(file);
+            var outFile = $"{baseName}_{name}{OutputExtension(ext)}";
+            var outPath = Path.Combine(outDir, outFile);
+
+            SaveImage(cloned, outPath, ext);
+        }
+    }
+
+    static void SaveImage(Image img, string path, string sourceExt)
+    {
+        if (string.Equals(sourceExt, ".png", StringComparison.OrdinalIgnoreCase))
+        {
+            img.Save(path, new PngEncoder { CompressionLevel = PngCompressionLevel.Level6 });
+        }
+        else
+        {
+            if (!path.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) && !path.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase))
+            {
+                path = Path.ChangeExtension(path, ".jpg");
+            }
+            img.Save(path, new JpegEncoder { Quality = 85 });
+        }
+    }
+
+    static string OutputExtension(string sourceExt)
+    {
+        if (string.Equals(sourceExt, ".png", StringComparison.OrdinalIgnoreCase)) return ".png";
+        return ".jpg";
+    }
+
+    static bool HasImageExtension(string path)
+    {
+        var ext = Path.GetExtension(path).ToLowerInvariant();
+        return ext is ".png" or ".jpg" or ".jpeg" or ".bmp" or ".gif" or ".tiff"; // removed webp
+    }
+
+    static void CleanOutput(string outputDir, string subfolder)
+    {
+        var target = Path.Combine(outputDir, subfolder);
+        if (Directory.Exists(target))
+        {
+            Directory.Delete(target, recursive: true);
+        }
+        Directory.CreateDirectory(target);
+    }
+
+    static void AppendReportToReadme(List<string> lines)
+    {
+        if (lines.Count == 0) return;
+        try
+        {
+            var readmePath = FindReadme();
+            if (readmePath is null) return;
+            var stamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            var content = "\n\n## Benchmarks\n" + string.Join("\n", lines.Select(l => "- " + l)) + $"\n(Date: {stamp})\n";
+            File.AppendAllText(readmePath, content);
+        }
+        catch { }
+    }
+
+    static string? FindReadme()
+    {
+        var candidates = new[] { "README.md", "Readme.md", "readme.md" };
+        // Start from base dir and walk up to 8 levels
+        var dir = AppContext.BaseDirectory;
+        for (int i = 0; i < 8 && dir is not null; i++)
+        {
+            foreach (var name in candidates)
+            {
+                var path = Path.Combine(dir, name);
+                if (File.Exists(path)) return path;
+            }
+            dir = Directory.GetParent(dir)?.FullName;
+        }
+        // fallback: current working directory
+        var cwd = Directory.GetCurrentDirectory();
+        foreach (var name in candidates)
+        {
+            var path = Path.Combine(cwd, name);
+            if (File.Exists(path)) return path;
+        }
+        return null;
+    }
+}
