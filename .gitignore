@@ -1,0 +1,44 @@
+# Visual Studio / .NET build outputs
+[Bb]in/
+[Oo]bj/
+
+# VS Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider/IDEA
+.idea/
+*.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Test results
+TestResult*/
+*.trx
+
+# Others
+*.vs/
+*.cache
